@@ -1,0 +1,36 @@
+//GET /api/v1/pickups/{uuid}
+
+{
+    "uuid": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
+    "id": 1,
+    "pickupsInternalId": 2550511306,
+    "companyId": 25505,
+    "status": "pending",
+    "agent": {
+        "id": 13975,
+        "name": "Bodega Medellin",
+        "contact": "Charly",
+        "document": 6661233221,
+        "city": "MEDELLIN(ANTIOQUIA)",
+        "address": "Calle 49 Sur, Medellín, Antioquia, Colombia",
+        "reference": "palo de mango",
+        "phone": "3201542685",
+        "email": "charly-warehouse@yopmail.co"
+    },
+    "transportId": 33,
+    "date": {
+        "date": "2023-12-11",
+        "timeFrom": "13:40:06",
+        "timeTo": "13:30:06"
+    },
+    "item": {
+        "type": "small-package",
+        "units": 1,
+        "height": 0,
+        "length": 0,
+        "width": 0,
+        "weight": 1,
+        "declaredValue": 0,
+        "description": "5 Cajas de zapatos tala 38"
+    }
+}
